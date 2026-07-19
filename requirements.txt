@@ -1,0 +1,5 @@
+# STM32 温湿度上位机 — 第三方依赖清单
+# 安装方式：pip install -r requirements.txt
+
+pyserial>=3.5        # 串口通信库，用于与 STM32 USART1 通信
+matplotlib>=3.8      # 绘图库，用于实时绘制温湿度动态曲线
